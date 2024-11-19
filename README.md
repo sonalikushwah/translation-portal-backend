@@ -22,3 +22,7 @@ Ensure you have the following installed:
     EMAIL_USER=youractual@gmail.com //actual gmail from which you have to send translated file
     EMAIL_PASS=syyq cquv jwgw gmxc //create a password from your google account from App password (add app name "gamil")
 4. Start the server: npm start or yarn start
+5. Now run these query on postman for adding a admin
+API - http://localhost:5000/api/signup
+Method - POST
+Body - {"email":"admin@gmail.com","password":"admin123","role":"admin"}
